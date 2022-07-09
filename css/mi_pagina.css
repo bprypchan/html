@@ -1,9 +1,9 @@
-body{
+.body1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,213,1) 100%);
     display: flex;
@@ -21,6 +21,7 @@ h2 {
 
 }
 
+
 .robot svg {
     position: absolute;
     top: 10%;
@@ -28,7 +29,7 @@ h2 {
     display: block;
     margin: 0 auto;
     margin-left: -300px;
-    transform: scale(0.4) translate(0, -100%);
+    transform: scale(0.45) translate(0, -100%);
     transform-origin: center;
     height: 800px;
     width: 600px;
@@ -167,4 +168,27 @@ h2 {
           #hover ellipse{
           transform-origin:center center; 
           animation:shadow 1.1s ease-in-out 0s infinite alternate}
+
+
+          .body2{
+            flex-direction: row;
+            flex-direction: column;
+            background-color: black;
+            width: 1500px;
+            height: 200px;
+                                     
+          }
+          p {
+              text-align: center;
+              color:white;
+            
+          }
+          
+    
+
+        
+         
+          
+    
+          
   
