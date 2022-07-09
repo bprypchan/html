@@ -1,0 +1,135 @@
+/*CSS contac.us.css Segunda clase*/
+p {
+    color: darkblue; /* solo le da color al texto*/
+    background-color: aquamarine; /* solo le da color al fondo, o fondo del texto*/
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style: groove;
+    padding: 60px;
+    width: 50px;
+    height: 80px;
+    text-transform: uppercase; /* poner todo en mayuscula*/
+    text-shadow: 1x 2px yellow;
+    font-family: Arial, Helvetica, sans-serif; /* fuente del texto*/
+    font-size: 25px; /* tamaño del texto*/
+}
+body {
+   background-color: aqua;
+  }
+  
+  .example {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  button:hover { /* esto es para cambiar el color del oton justo cuando ponga el cursor en el boton*/
+    background-color: rgb(67, 174, 216);
+  }
+
+  a:link { /* esto es para cambiar el color del link cuando aun no he abierto el enlace*/
+    color:aqua;
+    font-size: 30px;
+  }
+  a:visited { /* esto es para cambiar el color del link cuando ya abri el enlace*/
+    color: yellow;
+    font-size: 50px;
+  }
+  a:active { /* esto es cuando justo le doy click en el enlace*/
+    color: white;
+    font-size: 50px;
+  }
+ 
+  a:hover {
+    color: green;
+  }
+
+  a {
+    text-decoration: none; /* esto es para quitarle la raya abajo del texto*/
+  }
+
+  p::first-letter { /* esto es para aumentar solo la primera letra de todos los P*/
+    font-size: 50px;
+    color: peru; 
+  }
+
+  p::first-line { /* esto es para cambiarle el color a la primera linea de todos los P*/
+    color: rgb(165, 42, 118);
+  }
+
+  button {
+    width: 100px; /* cambiarle el tamaño al boton*/
+    height: 100px;
+    transition: width 2s; /* que el boton tenga una animacion de 2s CON EL CODIGO DE ABAJO*/
+  }
+
+  button:hover { /* este codigo sera lo que hara por 2 segundos, en este caso, cuando ponga el cursor en el boton*/
+    width: 600px;
+    background-color:blueviolet; 
+  }
+
+  /*Animaciones*/
+
+  .example { /* es para que inicie con un dolor y termine con otro color*/
+    background-color: brown;
+    animation-name: ejemplo;
+    animation-duration: 5s; /* y durara 5s*/
+  }
+  @keyframes ejemplo {
+    from {background-color: brown;}
+    to {background-color: white;}
+  }
+
+  #animacion {
+    width: 100px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    animation-name: moverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes moverse {
+      0% {right: 0; top: 0; background-color: chartreuse;}
+      25% {right: 200px; top: 0; background-color: red;}
+      50% {right: 200px; top:200px; background-color: blue;}
+      75% {right: 500px; top:200px; background-color: orange;}
+      100% {right: 0px; top: 0px; background-color: pink;}
+    }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example { /* se coloca .example porque es una clase creada en html llamada example, entonces en css se pone .y nombre de la clase*/
+        background: red;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+    
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 601px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }

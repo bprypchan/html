@@ -1,0 +1,14 @@
+ p{
+            color:rgb(255, 0, 64);
+            
+            background-color: black;
+        }
+        h1{
+            color:blue;
+        }
+            /*Estilizado de ID*/
+            #introduccion {
+                color:rgb(36, 131, 175);
+
+            
+        }
