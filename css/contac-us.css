@@ -28,7 +28,7 @@ body {
     align-items: center;
   }
 
-  button:hover { /* esto es para cambiar el color del oton justo cuando ponga el cursor en el boton*/
+  button:hover { /* esto es para cambiar el color del boton justo cuando ponga el cursor en el boton*/
     background-color: rgb(67, 174, 216);
   }
 

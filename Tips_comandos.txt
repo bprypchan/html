@@ -1,0 +1,91 @@
+
+SE PONE EN HTML
+1. Esto es un comentario en html:
+ <!--Barra de categorias-->
+
+2. aside
+sirve para colocar cosas una abajo de la otra
+
+
+
+SE PONE EN CSS:
+1. Esto es un comentario en css:
+ /* cambiar el color del boton */
+
+ 2. ID
+ Los id, en ccs se ponen con #
+ 2.1 CLASS 
+ Las clases en css se ponen con .
+
+2. Esto me selecciona TODOS los elementos del html, las etiquetas, las clases, TODO
+ * {
+   
+    }
+
+3. El padding y margin vienen por defecto, si le colcoas 0, todo se ira a la izquierda es decir lo mas absoluto de la pantalla izquiera
+{
+    margin:0;
+    padding:0;
+}
+
+4. el display es como se muestra un elemento
+disply: block todo el elemento ocupa el espacio horizontalmente. Ocupa toda una linea
+display: inline; /*Varios elementos en una sola linea*/
+display: grid; /* es una grilla, de fotos y filas de columnas*/
+
+5. Columnas
+grid-template-columns: 1fr 1fr. Esto quiere decir que fr es una fraccion, y que la pantalla se va a dividir en dos
+esto quiere decir que se crean dos columnas 
+grid-template-columns: 800px 200px;  /* tambien se puede colocar con pixeles*/
+
+6. Permite alinear los elementos que estan dentro de las COLUMNAS
+justify-content: center; /*alinear horizontalmente*/
+align-content: center;  /*alinear verticalmente*/
+
+
+6.1 SI TENGO UN CUADRARO de background, como poner los cuadrados uno al lado del otro
+display: inline-block;
+
+6.2 SI TENGO UN P (linea de texto), como poner el texto uno al lado del otro
+display: inline-block; AQUI, MANTIENEN SU BLOCK (cuadrado) PERO SE COLOCAN EN LINEA
+tambien sirve
+float: left; PERO SE COLOCAN JUNTAS TODAS.
+
+6.3 SI TENGO IMAGENES (ya por defecto se ponen uno al lado del otro), como poner las IMAGENES una abajo de la otra
+display: block;
+
+
+7. Permite alinear los elementos que estan dentro de las FILAS
+justify-content: center; /*alinear verticalmente*/
+align-content: center;  /*alinear horizontalmente*/
+
+8. Para centrar el texto
+text-align: center;
+
+9. Centra los elementos (ambos elementos) en el medio, es decir al mismo nivel.
+No se centra horizontalment pero verticalmente si
+align-items: ;
+
+10. Posiciona un elemento en el medio de la COLUMNA
+justify-content: ;
+
+11. Padding crea un espacio entre la caja y el contenido de la caja
+padding: 1em;
+
+12. ANCHO
+width: 10px;
+
+13. ALTO
+height: 10px;
+
+14.TAMAÑO DE LA LETRA
+font-size: 20px;
+
+15. REDONDEAR EL BORDE DE UN CUADRITO
+border-radius: 10px;
+
+
+
+
+
+
