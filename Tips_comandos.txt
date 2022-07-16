@@ -84,6 +84,15 @@ font-size: 20px;
 15. REDONDEAR EL BORDE DE UN CUADRITO
 border-radius: 10px;
 
+16. Separa las imagenes verticalmente
+ margin-bottom: 20px;
+
+ 17. Separa las imagenes verticalmente
+ margin-top: 20px;
+
+ 18. Separa las imagenes horizontalmente
+ margin-right: 20px;
+
 
 
 
