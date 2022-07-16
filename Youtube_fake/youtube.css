@@ -77,32 +77,38 @@ nav {
 }
 
 .aside_col4{
-  display: inline-block;  
+  display: inline-block;
+  margin-bottom: 10px; 
 }
 
 .aside_col5{
   display: inline-block; 
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .aside_col6{
   display: inline-block; 
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .aside_col7{
   display: inline-block; 
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .aside_col8{
   display: inline-block; 
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .aside_col9{
   display: inline-block;  
   margin-left: 10px;
+  margin-bottom: 10px;
   justify-content: center;
   
 }
